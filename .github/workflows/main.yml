@@ -1,8 +1,14 @@
 name: GitHub Actions Build and Deploy
 
 on:
-  # 手动运行工作流程（workflow_dispatch 事件触发器配置后可以在actions下手动运行工作流）
-  workflow_dispatch:
+  # Runs on pushes targeting the `main` branch. Change this to `master` if you're
+  # using the `master` branch as the default branch.
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write
 
 jobs:
   build-and-deploy:
