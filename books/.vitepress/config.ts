@@ -5,6 +5,10 @@ const config = {
   //   sidebar,
   // },
   // Layout,
+  srcDir: "books",
+  base: "/lz-space/",
+  outDir: "dist",
+
   markdown: {
     container: {
       tipLabel: "提示",
