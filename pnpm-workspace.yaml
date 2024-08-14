@@ -5,3 +5,5 @@ packages:
   - "example"
     # 文档目录
   - "docs"
+
+  - "books"

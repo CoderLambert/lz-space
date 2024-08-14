@@ -12,7 +12,8 @@
     "preinstall": "npx only-allow pnpm",
     "postinstall": "husky install",
     "commit": "cz",
-    "commitlint": "commitlint --config commitlint.config.js -e -V"
+    "commitlint": "commitlint --config commitlint.config.js -e -V",
+    "build:docs": "pnpm run --filter=books  docs:build"
   },
   "keywords": [],
   "author": "",
