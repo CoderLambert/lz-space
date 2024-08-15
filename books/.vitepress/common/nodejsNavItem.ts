@@ -14,6 +14,10 @@ export const nodejsNavItem = [
         text: "execa(命令运行工具)",
         link: "/note/nodejs/execa",
       },
+      {
+        text: "chokidar(文件监视工具)",
+        link: "/note/nodejs/chokidar",
+      },
     ],
   },
 ];

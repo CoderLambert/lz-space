@@ -7,9 +7,7 @@
     - theme: brand
       text: 开始使用
       link: /guide/start
-    # - theme: alt
-    #   text: 前端吧官网
-    #   link: http://qianduan8.com/
+
   features:
   - title: UnoCSS
     details: Unocss是一种基于PurgeCSS的CSS框架,它可以帮助你更简洁、更高效地编写CSS。 Unocss的语法非常简单,它采用了类似于Tailwind CSS的类名方式。
@@ -31,4 +29,7 @@
   - title: Vue Router
     details: Vue.js 的官方路由,为 Vue.js 提供富有表现力、可配置的、方便的路由.
     link: https://router.vuejs.org/zh/
+  - title: Vscode Snippet Generator
+    details: Vscode Snippet Generator 是一个用于生成 VSCode 代码片段的工具。
+    link: https://snippet-generator.app
 ---

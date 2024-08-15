@@ -1,6 +1,6 @@
 # vitePress
 
- 安装
+## 安装
 
 ```bash
 npm i -D vitepress
@@ -29,3 +29,7 @@ npm run docs:build
 ```bash
 npm run docs:deploy
 ```
+
+## markdown 扩展语法
+
+<https://vitepress.dev/zh/guide/markdown#code-groups>
