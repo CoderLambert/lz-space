@@ -32,4 +32,8 @@
   - title: Vscode Snippet Generator
     details: Vscode Snippet Generator 是一个用于生成 VSCode 代码片段的工具。
     link: https://snippet-generator.app
+  - title: 30s代码片段
+    details: 30s代码片段一些编程文章的集合。
+    link: https://www.wuzao.com/document/30-seconds-of-code/
+
 ---
