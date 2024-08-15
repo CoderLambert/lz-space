@@ -1,3 +1,5 @@
+import { nodejsNavItem } from "../common/nodejsNavItem.ts";
+
 export default [
   {
     text: "组件展示",
@@ -16,10 +18,7 @@ export default [
     text: "技术笔记",
     items: [{ text: "VitePress", link: "/note/vitePress" }],
   },
-  {
-    text: "nodejs",
-    items: [{ text: "prompt", link: "/note/nodejs/prompts" }],
-  },
+  ...nodejsNavItem,
   {
     text: "关于我们",
     link: "/about/page",
