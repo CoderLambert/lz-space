@@ -2,6 +2,7 @@ import topNav from "./topNav/index";
 import { sideBar } from "./sideBar";
 const config = {
   base: "/lz-space/",
+  ignoreDeadLinks: true,
   description: "个人学习、分享、记录",
   markdown: {
     container: {
