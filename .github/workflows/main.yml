@@ -51,3 +51,13 @@ jobs:
           branch: deploy-pages
           # 填写打包好的目录名称路径，本项目配置在根目录
           folder: books/.vitepress/dist
+
+      - name: upload file
+        uses: kostyaten/ssh-server-deploy@v4
+        with:
+          host: ${{ secrets.HOST }}
+          username: ${{ secrets.USERNAME }}
+          password: ${{ secrets.PASSWORD }}
+          port: 22
+          scp_source: "books/.vitepress/dist/*"
+          scp_target: ${{ secrets.TARGET }}
