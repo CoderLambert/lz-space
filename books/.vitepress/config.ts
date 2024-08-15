@@ -1,12 +1,8 @@
 import topNav from "./topNav/index";
 import { sideBar } from "./sideBar";
 const config = {
-  // themeConfig: {
-  //   sidebar,
-  // },
-  // Layout,
   base: "/lz-space/",
-
+  description: "个人学习、分享、记录",
   markdown: {
     container: {
       tipLabel: "提示",
@@ -18,8 +14,12 @@ const config = {
   },
 
   themeConfig: {
+    siteTitle: "lambert 的文档",
     nav: topNav,
     sidebar: sideBar,
+    search: {
+      provider: "local",
+    },
     docFooter: {
       prev: "上一篇",
       next: "下一篇",

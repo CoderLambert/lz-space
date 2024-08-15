@@ -1,5 +1,10 @@
 export default [
   {
+    text: "组件展示",
+    items: [{ text: "按钮", link: "/components/button" }],
+  },
+
+  {
     text: "前端网聚",
     items: [
       { text: "前端综合", link: "/site/page" },
@@ -9,11 +14,11 @@ export default [
   },
   {
     text: "技术笔记",
-    items: [
-      { text: "VitePress", link: "/note/vitePress" },
-      { text: "Vue", link: "/note/vue" },
-      { text: "react", link: "/note/react" },
-    ],
+    items: [{ text: "VitePress", link: "/note/vitePress" }],
+  },
+  {
+    text: "nodejs",
+    items: [{ text: "prompt", link: "/note/nodejs/prompts" }],
   },
   {
     text: "关于我们",
