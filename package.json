@@ -37,6 +37,7 @@
   },
   "husky": {
     "hooks": {
+      
       "pre-commit": "pnpm run changelog && git add -A ."
     }
   }
