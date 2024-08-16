@@ -15,7 +15,8 @@
     "commitlint": "commitlint --config commitlint.config.js -e -V",
     "docs:build": "pnpm run --filter=books  docs:build",
     "docs:dev": "pnpm run --filter=books  docs:dev",
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s",
+    "prepare": "husky"
   },
   "keywords": [],
   "author": "",
