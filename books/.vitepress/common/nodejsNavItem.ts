@@ -18,6 +18,10 @@ export const nodejsNavItem = [
         text: "chokidar(文件监视工具)",
         link: "/note/nodejs/chokidar",
       },
+      {
+        text: "gray-matter(md文件解析元数据)",
+        link: "/note/nodejs/gray-matter",
+      },
     ],
   },
 ];
