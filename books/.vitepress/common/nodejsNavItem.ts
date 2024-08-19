@@ -22,6 +22,10 @@ export const nodejsNavItem = [
         text: "gray-matter(md文件解析元数据)",
         link: "/note/nodejs/gray-matter",
       },
+      {
+        text: "slash (将 Windows 反斜杠路径转换为斜杠路径)",
+        link: "/note/nodejs/slash",
+      },
     ],
   },
 ];
