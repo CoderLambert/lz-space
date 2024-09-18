@@ -16,6 +16,8 @@
   "dependencies": {
     "@types/markdown-it": "^14.1.2",
     "github-markdown-css": "^5.6.1",
+    "leafer-editor": "^1.0.2",
+    "leafer-ui": "^1.0.2",
     "markdown-it": "^14.1.0",
     "pinia": "^2.1.7",
     "vue": "^3.4.29",

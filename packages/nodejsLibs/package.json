@@ -11,6 +11,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "flextree": "^1.0.1",
+    "flextree-sqlite-adapter": "^1.0.1",
     "gray-matter": "^4.0.3",
     "prompts": "^2.4.2",
     "slash": "^5.1.0"

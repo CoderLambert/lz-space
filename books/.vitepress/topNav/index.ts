@@ -1,4 +1,5 @@
 import { nodejsNavItem } from "../common/nodejsNavItem.ts";
+import { viteNavItem } from "../common/viteNavItem.ts";
 import { markdown } from "./markdown.ts";
 export default [
   {
@@ -19,6 +20,6 @@ export default [
     items: [...markdown, { text: "VitePress", link: "/note/vitePress" }],
   },
   ...nodejsNavItem,
-
+  ...viteNavItem,
   // { text: "更新日志", link: "" },
 ];
