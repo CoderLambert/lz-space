@@ -18,6 +18,14 @@ export const nodejsNavItem = [
         text: "chokidar(文件监视工具)",
         link: "/note/nodejs/chokidar",
       },
+      {
+        text: "gray-matter(md文件解析元数据)",
+        link: "/note/nodejs/gray-matter",
+      },
+      {
+        text: "slash (将 Windows 反斜杠路径转换为斜杠路径)",
+        link: "/note/nodejs/slash",
+      },
     ],
   },
 ];

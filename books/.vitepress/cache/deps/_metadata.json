@@ -1,49 +1,49 @@
 {
-  "hash": "3043a3a4",
-  "configHash": "33e5bd4c",
-  "lockfileHash": "5441c587",
-  "browserHash": "ca4cc7bc",
+  "hash": "057f71a2",
+  "configHash": "6e29879d",
+  "lockfileHash": "b4426dad",
+  "browserHash": "a3cde256",
   "optimized": {
     "vue": {
       "src": "../../../../node_modules/.pnpm/vue@3.4.37_typescript@5.5.4/node_modules/vue/dist/vue.runtime.esm-bundler.js",
       "file": "vue.js",
-      "fileHash": "010c3b5d",
+      "fileHash": "c704382e",
       "needsInterop": false
     },
     "vitepress > @vue/devtools-api": {
       "src": "../../../../node_modules/.pnpm/@vue+devtools-api@7.3.8/node_modules/@vue/devtools-api/dist/index.js",
       "file": "vitepress___@vue_devtools-api.js",
-      "fileHash": "23d68367",
+      "fileHash": "744110df",
       "needsInterop": false
     },
     "vitepress > @vueuse/core": {
       "src": "../../../../node_modules/.pnpm/@vueuse+core@10.11.1_vue@3.4.37_typescript@5.5.4_/node_modules/@vueuse/core/index.mjs",
       "file": "vitepress___@vueuse_core.js",
-      "fileHash": "ac973a09",
+      "fileHash": "d3ec95e6",
       "needsInterop": false
     },
     "vitepress > @vueuse/integrations/useFocusTrap": {
       "src": "../../../../node_modules/.pnpm/@vueuse+integrations@10.11.1_focus-trap@7.5.4_vue@3.4.37_typescript@5.5.4_/node_modules/@vueuse/integrations/useFocusTrap.mjs",
       "file": "vitepress___@vueuse_integrations_useFocusTrap.js",
-      "fileHash": "ce3e21ae",
+      "fileHash": "96e3540c",
       "needsInterop": false
     },
     "vitepress > mark.js/src/vanilla.js": {
       "src": "../../../../node_modules/.pnpm/mark.js@8.11.1/node_modules/mark.js/src/vanilla.js",
       "file": "vitepress___mark__js_src_vanilla__js.js",
-      "fileHash": "ea25cf40",
+      "fileHash": "b23411db",
       "needsInterop": false
     },
     "vitepress > minisearch": {
       "src": "../../../../node_modules/.pnpm/minisearch@7.1.0/node_modules/minisearch/dist/es/index.js",
       "file": "vitepress___minisearch.js",
-      "fileHash": "f477f570",
+      "fileHash": "2b26e46a",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-Y4BZYF5F": {
-      "file": "chunk-Y4BZYF5F.js"
+    "chunk-ICHF43NU": {
+      "file": "chunk-ICHF43NU.js"
     },
     "chunk-NNKZBCFC": {
       "file": "chunk-NNKZBCFC.js"
