@@ -7,3 +7,4 @@ const md = `
 <template>
   <MDC :value="md" tag="article" />
 </template>
+<!-- An error occurred after installation #183 -->
